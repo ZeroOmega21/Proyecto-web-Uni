@@ -1,0 +1,91 @@
+/*estilos generales*/
+header {
+    background-color: #7456fc;
+    padding: 1rem;
+    text-align: center;
+    border: #93fc56 1rem solid;
+    
+}
+nav {
+    padding: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    border: 1rem solid #93fc56;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 1rem solid #93fc56;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+aside {
+    border: 1rem solid #93fc56;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+footer {
+    border: 1rem solid #93fc56;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: double;
+    border-width: 1rem;
+    border-color: #93fc56;
+}
+th {
+    background-color: #568bfc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+aside {
+    padding: 1rem;
+    width: 20%;
+    height: auto;
+}
+
+/*clases*/
+.container-secciones {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-juegos{
+    width: 350px;
+    height: auto;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    padding: 0.5rem;
+    border: #568bfc 1rem solid;
+}
+
+.Caratula-juego {
+    width: 350px; 
+    height: 500px;
+}
+
+.publicidad-derecha img {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+}
+.info-game {
+    font-size: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
